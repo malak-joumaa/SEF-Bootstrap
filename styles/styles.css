@@ -11,3 +11,23 @@ body{
     right:0;
     background:rgba(0,0,0,0.5);
   } */
+
+.mybtn{
+    background-color: #0d0 !important;
+    font-size: .9rem !important;
+    font-weight: bold !important;
+}
+
+#text-1{
+    font-size: calc((3.5 - 1) * 1.2vw + 1rem);
+    font-weight: 400;
+}
+#text-1 span{
+    font-weight: 700;
+}
+#text-2{
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+}
+#text-3{
+    font-size: calc((1.1 - 1) * 1.2vw + 1rem);
+}
