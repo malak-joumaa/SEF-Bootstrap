@@ -93,3 +93,15 @@ body{
     width: 56vw;
     height: 23vw;
 }
+/* Section 8 */
+#s8{
+    padding: 3.3vmax 7vw;
+    background-color: #e6e6e6;
+}
+.title-p{
+    font-size: calc((2.5 - 1) * 1.2vw + 1rem);
+    font-weight: 700;
+}
+#s8 img{
+    width: 95%;
+}
