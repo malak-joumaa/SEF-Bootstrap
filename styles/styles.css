@@ -31,3 +31,14 @@ body{
 #text-3{
     font-size: calc((1.1 - 1) * 1.2vw + 1rem);
 }
+/* Section 2 */
+#s2 h1{
+    color: #18ea19;
+    line-height: 1.17;
+    font-size:calc((3.5 - 1) * 1.2vw + 1rem);
+}
+#s2 p{
+    font-weight: 700;
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+    line-height: 1.4;
+}
