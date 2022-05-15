@@ -7,9 +7,8 @@ body{
     background-attachment: scroll;
 }
 #s1-p1{
-    padding-left: 1vw 7vw;
+    padding: 1vw 7vw;
 }
-
 .mybtn{
     background-color: #0d0 !important;
     font-size: .9rem !important;
@@ -24,10 +23,6 @@ body{
 
 #s1-p2{
     padding: calc(85vmax / 5) 7vw 7vw;
-}
-#s1-p2-text{
-    margin-top: 1.5vw;
-    margin-bottom: 1vw;
 }
 #text-1{
     font-size: calc((3.5 - 1) * 1.2vw + 1rem);
