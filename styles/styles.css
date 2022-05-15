@@ -119,5 +119,20 @@ body{
     font-size: calc((2.5 - 1) * 1.2vw + 1rem);
 }
 #s10 a{
-    font-size: calc((1.3 - 1) * 1.2vw + 1rem) ;
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+    background-color: black;
+}
+/* Section 11 */
+#s11{
+    padding: 3.3vmax 7vw;
+    font-size: calc((1.1 - 1) * 1.2vw + 1rem);
+    background-color: black;
+}
+#s11 a{
+    color: #0d0;
+    border-bottom: 1px solid #0d0;
+}
+#s11 i{
+    padding-left: 20px;
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
 }
