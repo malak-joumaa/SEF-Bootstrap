@@ -58,3 +58,15 @@ body{
     color: #0d0 !important;
     border-bottom: 1px solid #0d0;
 }
+/* Section 4 */
+#s4{
+    background-color: #0d0;
+    padding: 3.3vmax 6vw;
+}
+#s4 span{
+    font-size: calc((3 - 1) * 1.2vw + 1rem);
+}
+#s4 img{
+    width: 27vw;
+    height: 32vw;
+}
