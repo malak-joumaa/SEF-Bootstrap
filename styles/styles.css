@@ -1,23 +1,34 @@
 body{
     font-family: Roboto !important;
 }
-
-/* .item:after {
-    content:"";
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:rgba(0,0,0,0.5);
-  } */
+#s1{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/assets/presentation.JPG) no-repeat center fixed;
+    background-size: cover;
+    background-attachment: scroll;
+}
+#s1-p1{
+    padding-left: 1vw 7vw;
+}
 
 .mybtn{
     background-color: #0d0 !important;
     font-size: .9rem !important;
     font-weight: bold !important;
 }
+.mybtn2{
+    background-color: #0d0 !important;
+    font-size: .9rem !important;
+    font-weight: bold !important;
+    padding: 12px 22px !important;
+}
 
+#s1-p2{
+    padding: calc(85vmax / 5) 7vw 7vw;
+}
+#s1-p2-text{
+    margin-top: 1.5vw;
+    margin-bottom: 1vw;
+}
 #text-1{
     font-size: calc((3.5 - 1) * 1.2vw + 1rem);
     font-weight: 400;
@@ -27,11 +38,17 @@ body{
 }
 #text-2{
     font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+    margin: 16px 0 0;
+    width: 50%;
 }
 #text-3{
     font-size: calc((1.1 - 1) * 1.2vw + 1rem);
+    margin-top: 4vh;
 }
 /* Section 2 */
+#s2{
+    padding: 3.3vmax 10vw;
+}
 #s2 h1{
     color: #18ea19;
     line-height: 1.17;
